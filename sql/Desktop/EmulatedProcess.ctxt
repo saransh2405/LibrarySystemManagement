@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=id
+comment0.target=EmulatedProcess(int)
+comment1.params=quorum
+comment1.target=void\ setQuorum(java.util.ArrayList)
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ enterCritical()
+comment4.params=
+comment4.target=void\ exitCritical()
+comment5.params=p
+comment5.target=void\ requestRegion(EmulatedProcess)
+comment6.params=p
+comment6.target=void\ releaseRegion(EmulatedProcess)
+comment7.params=
+comment7.target=void\ sendReply()
+comment8.params=
+comment8.target=void\ shutdown()
+numComments=9

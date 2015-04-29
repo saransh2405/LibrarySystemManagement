@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=numNodes
+comment0.target=VectorClock(int)
+comment0.text=\n\ Constructs\ a\ VectorClock\ with\ {@code\ numNodes}\ elements.\ The\ VectorClock\n\ is\ of\ fixed\ size\ and\ cannot\ be\ extended\ after\ construction.\n\n\ @param\ numNodes\ The\ number\ of\ processes\ to\ maintain\ a\ state\ for.\n
+comment1.params=pid
+comment1.target=void\ incrementClock(int)
+comment1.text=\n\ Increments\ the\ clock\ of\ the\ pid\ supplied.\n\n\ @param\ pid\ The\ ID\ of\ the\ process\ which\ was\ incremented.\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Stringify\ the\ Vector\ clock.\ Debug-friendly\ representation\ of\ the\ vector\n\ clock.\n\n\ @return\ String\ representation\ of\ the\ Vector\ clock.\n
+comment3.params=vc
+comment3.target=VectorClock\ max(VectorClock)
+comment3.text=\n\ Returns\ a\ new\ VectorClock\ with\ the\ maximum\ values\ of\ each\ index.\ This\n\ method\ is\ used\ to\ implement\ the\ merge\ operation.\n\n\ @param\ vc\ The\ VectorClock\ to\ make\ comparison\ to.\n\ @return\n
+comment4.params=vc
+comment4.target=void\ merge(VectorClock)
+comment4.text=\n\ Implements\ the\ merge\ operation\ (VC4)\ of\ vector\ clocks.\ Merges\ the\n\ VectorClock\ with\ another,\ giving\ out\ the\ maximums\ of\ each\ index.\n\n\n\ @param\ vc\ The\ VectorClock\ to\ merge.\n
+comment5.params=vc
+comment5.target=VectorClockEquality\ relativeTo(VectorClock)
+comment5.text=\n\ VectorClock\ compare\ operation.\ \n\n\ @param\ vc\ -\ VectorClock\ to\ compare\ to.\n\n\ @return\ VectorClockEquality\ value\ indicating\ how\ the\ two\ clocks\ relate\ to\n\ each\ other.\n
+numComments=6

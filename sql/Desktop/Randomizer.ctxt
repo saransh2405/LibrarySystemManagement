@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=min\ max
+comment0.target=double\ nextUniform(double,\ double)
+comment1.params=sd\ mean
+comment1.target=double\ nextGaussian(double,\ double)
+numComments=2
